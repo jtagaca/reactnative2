@@ -4,13 +4,12 @@
       "version": "0.1.0",
       "private": true,
       "scripts": {
-        "android": "react-native run-android",
-        "ios": "react-native run-ios",
-        "test": "jest",
-        "lint": "eslint .", 
-	      	    "start": "expo start --host tunnel",
+	    "start": "expo start --host tunnel",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
     "web": "expo start --web",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "test": "jest --watchAll"
 
       },
       "dependencies": {
