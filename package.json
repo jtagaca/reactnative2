@@ -6,9 +6,12 @@
       "scripts": {
         "android": "react-native run-android",
         "ios": "react-native run-ios",
-        "start": "react-native start",
         "test": "jest",
         "lint": "eslint ."
+	      	    "start": "expo start --host tunnel",
+    "web": "expo start --web",
+    "eject": "expo eject"
+
       },
       "dependencies": {
         			"@react-navigation/bottom-tabs": "^6.3.1",
